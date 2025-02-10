@@ -9,4 +9,4 @@ class TodosTable(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str]
     description: Mapped[Optional[str]]
-    completed: Mapped[bool] = False
+    completed: Mapped[bool] = mapped_column(default=False)
