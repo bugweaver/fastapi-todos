@@ -1,6 +1,15 @@
 venv
 Dockerfile
 todo.db
-__pycache__/
+__pycache__
+*.log
+*.env
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.pytest_cache/
+*.coverage
+.vscode/
 .idea/
-migrations/versions/
